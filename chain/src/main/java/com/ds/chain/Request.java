@@ -33,6 +33,6 @@ public class Request {
 
     @Override
     public String toString() {
-        return this.requestDescription;
+        return getRequestDescription();
     }
 }
